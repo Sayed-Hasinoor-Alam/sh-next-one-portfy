@@ -1,5 +1,5 @@
 import React from 'react'
-import {BsGithub,BsLinkedin} from'react-icons/bs'
+
 import Link from '../../../node_modules/next/link'
 const Footer = () => {
   return (
@@ -17,11 +17,11 @@ const Footer = () => {
     </p>
     <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
       <Link target="_blank" href={"https://github.com/Sayed-Hasinoor-Alam"} className="text-black-500 text-center items-center">
-      <BsGithub className='items-center text-3xl hover:text-[blue]'/>
+     
       </Link>
 
       <Link target="_blank" href={"https://www.linkedin.com/in/sayed-hasinoor-alam-b1b26a257/"} className="ml-3 text-black-500 text-center items-center">
-      <BsLinkedin className='text-center text-3xl hover:text-[blue]'/>
+     
       </Link>
       
     </span>
